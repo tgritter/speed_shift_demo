@@ -7,4 +7,5 @@ https://speed-shift-demo.herokuapp.com/
 ReactJS, Ruby on Rails, PostgresQL
 
 ## INFO
+
 A webapp that tracks the employees at a company

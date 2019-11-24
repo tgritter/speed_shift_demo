@@ -69,6 +69,20 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 10px;
 }
 
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    height: 30px;
+    width: 150px;
+    background-color: #555555;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: white; 
+    color: #555555;;
+  }
+
 input[placeholder] {
 	font-size: 1.1em;
 }

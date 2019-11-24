@@ -122,7 +122,7 @@ class Employees extends Component {
                 </div>
 
                 <div className="buttonContainer">
-                    <button onClick={this.checkInputs}>Add Employee</button>
+                    <button className="button" onClick={this.checkInputs}>Add Employee</button>
                 </div>
                 
                 <div className="header">
