@@ -1,24 +1,10 @@
-# README
+# Speed Shift Media Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://speed-shift-demo.herokuapp.com/
 
-Things you may want to cover:
+## DEPENDENCIES
 
-* Ruby version
+ReactJS, Ruby on Rails, PostgresQL
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## INFO
+A webapp that tracks the employees at a company
