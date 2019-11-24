@@ -1,0 +1,153 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+ul.employeeList {
+	padding: 0;
+}
+
+li.employee {
+    display: flex;
+    flex-direction: row;
+	list-style-type: none;
+	font-family: Tahoma;
+	font-size: 1.2em;
+	padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li.employeeHeader {
+    display: flex;
+    flex-direction: row;
+	list-style-type: none;
+	font-family: Tahoma;
+    font-size: 1.2em;
+    font-weight: bold;
+	padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li.employee:hover .deleteEmployeeBtn {
+	visibility: visible;
+	opacity: 1;
+}
+
+.employeeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+input[placeholder] {
+	font-size: 1.1em;
+}
+
+.employeeItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.header {
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+}
+
+.inputContainer {
+	padding: 15px 0 0 15px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+.inputWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+    .inputContainer .input {
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+}
+
+.no_error {
+    color: white;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.padding {
+	float: right;
+	color: white;
+	background: rgba(0,0,0,0);
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px 5px;
+	visibility: hidden;
+	opacity: 0;
+	line-height: 0;
+	margin-right: 5px;
+	cursor: default;
+}
+
+.deleteEmployeeBtn {
+	float: right;
+	color: red;
+	background: rgba(0,0,0,0);
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px 5px;
+	visibility: hidden;
+	opacity: 0;
+	line-height: 0;
+	margin-right: 5px;
+	cursor: default;
+}
